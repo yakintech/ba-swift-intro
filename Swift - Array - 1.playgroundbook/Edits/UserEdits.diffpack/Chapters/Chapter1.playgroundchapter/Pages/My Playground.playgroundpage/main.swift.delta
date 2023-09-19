@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var names = ["Çağatay", "Ali", "Ayça", "Müge", "Aykut"] //string array
+
+var numbers : [Int] = [-2, 55, 3, 11]  //number (INT) array
+
+var numbers2 = [22.0, -1.5, 6.0] // ondalıklı bir sayı dizisi
+
+
+names[0] = "Murat"
+
+//dizide eleman çağırmak 
+//dizinin 1. elemanını çağırdım (0)
+//print(names[0])
+
+
+//names dizisinin kaç elemanı var?
+print(names.last)
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 356}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

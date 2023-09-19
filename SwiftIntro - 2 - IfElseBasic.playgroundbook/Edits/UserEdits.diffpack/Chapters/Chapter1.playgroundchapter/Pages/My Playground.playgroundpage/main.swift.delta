@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//IF ELSE
+
+
+//Ürünün fiyatı 100 den büyükse %10 indirim değilse %5 indirim uygula
+var price = 120.0
+
+if price &gt; 100{
+    print(price * 0.9)
+}
+else{
+    print(price * 0.85)
+}
+
+
+
+//not 0-45 ise kaldınız yukarısı ise geçtiniz yazsın
+var not = 40
+
+if(not &gt; 45){
+    print("Geçtiniz")
+}
+else{
+    print("Kaldınız")
+}
+
+//Kullanıcı adı admin ve şifre 123 ise giriş yapsın değilse "kullanıcı adı veya şifre hatalı" yazsın
+
+var username = "admin"
+var password = "1234"
+
+if (username == "admin" &amp;&amp; password == "123"){
+    print("Giriş Başarılı!")
+}
+else{
+    print("Kullanıcı adı veya şifre hatalı")
+}
+
+
+
+var sonuc = "cagatay" == "cagatay "
+print(sonuc)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 644}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

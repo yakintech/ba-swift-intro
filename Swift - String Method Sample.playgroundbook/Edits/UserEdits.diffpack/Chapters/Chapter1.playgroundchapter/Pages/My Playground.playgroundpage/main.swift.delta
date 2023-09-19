@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+
+//1) aşağıdaki datanın boşluğu temizle ve tüm harflerini büyült
+var country = " türkiye"
+var newCountry = country.uppercased().trimmingCharacters(in: .whitespaces)
+
+print(newCountry)
+
+
+//tek bir metin halinde "Çağatay Yıldız 36" olarak metinleri birleştir
+var name = "Çağatay"
+var surname = "Yıldız"
+var age = 36
+
+var result = name + " " + surname + " " + String(age)
+var result2 = "\(name) \(surname) \(age)"
+
+print(result)
+print(result2)
+
+
+
+//Çağatay 36 yaşındadır
+var result3 = "\(name) \(age) yaşındadır."
+
+
+
+//“  Bilge Adam ” isimli metindeki boşlukları kaldır
+
+var company = "  Bilge Adam "
+var newCompany = company.trimmingCharacters(in: .whitespaces)
+print(newCompany)
+
+//“******Çağatay Yıldız” isimli metindeki yıldızları kaldır
+var data = "******Çağatay Yıldız"
+var newData = data.replacingOccurrences(of: "*", with: "")
+
+print(newData)
+
+//“ Bilge  Adam” kelimesinde 2 boşluk var bunu bir boşluk yap
+var company2 = " Bilge  Adam"
+var newCompany2 = company.replacingOccurrences(of: "  ", with: " ")
+
+
+
+
+//"İzmir,İstanbul,Ankara,Aydın,Erzurum,Diyarbakır,Trabzon,Van,Edirne"
+
+var stringCity = "İzmir,İstanbul,Ankara,Aydın,Erzurum,Diyarbakır,Trabzon,Van,Edirne"
+//yukarıdaki metni DİZİYE ÇEVİRİYORUM
+var cities = stringCity.split(separator: ",")
+print(cities)
+
+
+
+
+
+
+//“Bilge Adam Bilişim teknolojileri” metnindeki son kelimeyi büyült. (split)
+var company3 = "Bilge Adam Bilişim teknolojileri" //Bilge Adam Bilişim TEKNOLOJİLERİ
+
+//öncelikle metni diziye çevirdim ve dizideki tüm elemanlarda dönüyorum
+var companyArray = company3.split(separator: " ")
+
+print(companyArray.last)
+//Optional("teknolojileri")
+
+var users : [String] = []
+print(users.last) //nil or null ( diğer yazılım dillerinde)
+
+
+
+//KÖTÜ YOL
+//var result5 = ""
+//for item in companyArray{
+
+    //if(item == "teknolojileri"){
+      //  result5 = result5 + " " + item.uppercased()
+    //}
+    //else{
+      //   result5 = result5 + " " + item
+    //}
+//}
+//print(result5)
+
+
+
+
+
+var test = "Çağatay " + companyArray.last
+
+
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 2012}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

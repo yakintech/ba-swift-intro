@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var name = "Çağatay"
+var age = 18
+
+
+//Eğer bir değişkende sayısal bir hesaplama işlemi yapılacaksa o değişken numeric olarak tanımlanır!
+
+var phone = "5437331470"
+var number = 99999999
+var number2 = 22.3
+//Int, string, float vb. data TİPLERİM
+
+
+
+var surname : String
+
+surname = "Yıldız"
+//surname = "Arda"
+
+//string olarak belirttiğim bir değişkene number bir değer ATAYAMAM
+//surname = 11
+
+var x = 3
+var y = 7
+
+var z = x * y
+print(z)
+
+
+var fullname = name + " " + surname
+print(fullname)
+//var fullname2 = name * surname
+
+
+//let price = 2200
+//price = 1000
+
+
+var onlineStatus : Bool = true
+
+//string, numeric (int, float), bool
+
+var result = 20 &lt; 10
+print(result)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 665}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+
+//String Methods 
+var name = "çağatay"
+
+//bütün harflerini büyült ve soldaki değişkene ATA
+var uppername = name.uppercased()
+
+//bütün harflerini küçült ve soldaki değişkene ATA
+var lowername = name.lowercased()
+
+print(lowername)
+print(uppername)
+
+var email = " cagatay@mail.com"
+//soldaki boşlukları temizle
+
+var trimEmail = email.trimmingCharacters(in: .whitespaces)
+
+print(email)
+print(trimEmail)
+
+
+name.append("-TR")
+print(name)
+
+
+//+90 ı ortadan kaldır
+var phoneNumber = "+905437331470"
+//5437331470
+
+var newPhone = phoneNumber.replacingOccurrences(of: "+90", with: "")
+print(newPhone)
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 610}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
